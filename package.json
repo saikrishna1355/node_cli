@@ -1,0 +1,51 @@
+{
+  "name": "@sai_krishna_m/create-nodejs-app",
+  "version": "2.1.0",
+  "description": "CLI to scaffold a base Node.js project",
+  "bin": {
+    "create-nodejs-app": "./bin/index.mjs"
+  },
+  "keywords": [
+    "node",
+    "cli",
+    "create-nodejs-app",
+    "create-app",
+    "generator",
+    "scaffold",
+    "scaffolding",
+    "boilerplate",
+    "starter",
+    "template",
+    "typescript",
+    "ts",
+    "javascript",
+    "js",
+    "express",
+    "api",
+    "backend",
+    "rest",
+    "jwt",
+    "authentication",
+    "authorization",
+    "sequelize",
+    "mysql",
+    "mongodb",
+    "bullmq",
+    "redis",
+    "pm2",
+    "winston",
+    "migrations",
+    "seeders"
+  ],
+  "author": "Sai Krishna",
+  "license": "MIT",
+  "dependencies": {
+    "chalk": "^5.5.0",
+    "commander": "^14.0.0",
+    "fs-extra": "^11.3.0"
+  },
+  "devDependencies": {
+    "tsc-watch": "^7.1.1",
+    "typescript": "^5.9.2"
+  }
+}

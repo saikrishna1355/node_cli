@@ -1,0 +1,31 @@
+{
+  "name": "be",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "migrate:dev": "NODE_ENV=dev npx sequelize-cli db:migrate",
+    "seed:dev": "NODE_ENV=dev npx sequelize-cli db:seed:all"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "description": "",
+  "dependencies": {
+    "bcrypt": "^6.0.0",
+    "bcryptjs": "^3.0.2",
+    "bullmq": "^5.56.9",
+    "cors": "^2.8.5",
+    "dotenv": "^17.2.1",
+    "express": "^5.1.0",
+    "helmet": "^8.1.0",
+    "ioredis": "^5.7.0",
+    "jsonwebtoken": "^9.0.2",
+    "mongoose": "^8.17.0",
+    "morgan": "^1.10.1",
+    "mysql2": "^3.14.3",
+    "pm2": "^6.0.8",
+    "sequelize": "^6.37.7",
+    "winston": "^3.17.0",
+    "winston-daily-rotate-file": "^5.0.0"
+  }
+}
