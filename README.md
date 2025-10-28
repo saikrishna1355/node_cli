@@ -2,6 +2,10 @@
 
 CLI to scaffold a production‑ready Node.js project in JavaScript or TypeScript. Defaults to TypeScript and includes opinionated setup for auth, databases, queues, logging, migrations, and more.
 
+## Demo
+
+![Demo](ubuntu_terminal_final.gif)
+
 ## Install
 
 - Using npx (recommended):
@@ -39,8 +43,8 @@ create-nodejs-app my-app --lang js
 
 ### Options
 
-- `-l, --lang <lang>`  Language to scaffold: `ts` or `js` (default: `ts`)
-- `-h, --help`         Show help
+- `-l, --lang <lang>` Language to scaffold: `ts` or `js` (default: `ts`)
+- `-h, --help` Show help
 
 ## After scaffold
 
@@ -66,6 +70,7 @@ Both templates share a similar modular structure and include:
 ## Templates
 
 - TypeScript: `templates/node-base-template-ts`
+
   - Entry: `src/app.ts`
   - Scripts: `dev` (ts-node-dev), `build`, `start`, `migrate:dev`, `seed:dev`
   - Includes type definitions and `tsconfig`
@@ -98,4 +103,3 @@ npx @sai_krishna_m/create-nodejs-app api-js --lang js
 ## License
 
 MIT © Sai Krishna
-

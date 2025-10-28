@@ -1,6 +1,6 @@
 {
   "name": "@sai_krishna_m/create-nodejs-app",
-  "version": "2.1.0",
+  "version": "2.1.1",
   "description": "CLI to scaffold a base Node.js project",
   "bin": {
     "create-nodejs-app": "./bin/index.mjs"
