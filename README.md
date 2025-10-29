@@ -1,10 +1,13 @@
 # create-nodejs-app
 
+[![npm version](https://img.shields.io/npm/v/@sai_krishna_m/create-nodejs-app.svg)](https://www.npmjs.com/package/@sai_krishna_m/create-nodejs-app)
+[![license: MIT](https://img.shields.io/badge/license-MIT-green.svg)](LICENSE)
+
 CLI to scaffold a production‑ready Node.js project in JavaScript or TypeScript. Defaults to TypeScript and includes opinionated setup for auth, databases, queues, logging, migrations, and more.
 
 ## Demo
 
-![Demo](ubuntu_terminal_final.gif)
+![Demo](https://cdn.jsdelivr.net/gh/saikrishna1355/node_cli@main/ubuntu_terminal_final.gif)
 
 ## Install
 
